@@ -1,0 +1,22 @@
+# GitDredger - Required Python Packages
+# Core dependencies for GitHub Archive scanning and token detection
+
+# HTTP requests for downloading GitHub Archive data
+requests>=2.25.1
+
+# Standard library modules (included with Python 3.7+)
+# - gzip: For decompressing GitHub Archive files  
+# - json: For parsing JSON data and config files
+# - re: For regex pattern matching
+# - argparse: For command line argument parsing
+# - sys: For system operations
+# - datetime: For time handling
+# - typing: For type hints
+# - concurrent.futures: For parallel processing
+# - dataclasses: For data structures
+
+# Optional development dependencies (uncomment if needed)
+# pytest>=6.0.0          # For running tests
+# black>=21.0.0           # For code formatting  
+# flake8>=3.8.0          # For code linting
+# mypy>=0.800            # For type checking 
